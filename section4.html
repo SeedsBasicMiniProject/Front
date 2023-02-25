@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>section4</title>
+
+        <script>
+            function goURL(url){
+                window.location = url;
+            }
+        </script>
+
+        <link rel="stylesheet" type="text/css" href="style_section4.css">
+    </head>
+    <body>
+
+        <section class="section4_container">
+            <h3 class="section4_title">그 외에 더 많은 Seeds🌱 의 정보는...</h3>
+            <div class="section4_content_container">
+
+                <article class="section4_content_box" onclick="goURL('section4_project.html')">
+                    <div class="information_title">
+                        <h4 class="title_box">프로젝트</h4>
+                    </div>
+                    <div class="text_box">Seed에서 진행한 여러 프로젝트</div>
+                </article><!--프로젝트 페이지와 연동 // 추후에 프로젝트 페이지가 만들어지면 수정!-->
+
+                <article class="section4_content_box" onclick="goURL('https://docs.google.com/forms/d/e/1FAIpQLSfmCWXsb4csjgsjiaYXshpKXKJv537zfySmoQL81sg7EL2nnQ/viewform?usp=sf_link')">
+                    <div class="information_title">
+                        <h4 class="title_box">문의 및 지원</h4>
+                    </div>
+                    <div class="text_box">Seeds에 관련된 문의 및 지원신청</div>
+                </article><!--문의 및 지원 페이지와 연동 // 현재 : 구글폼과 연결 -->
+                    
+                <article class="section4_content_box" onclick="goURL('https://www.notion.so/Seeds-f128fe76ce394b72b2a117310faa38db')">
+                    <div class="content_title_container">
+                        <h4 class="title_box">Seeds notion</h4>
+                    </div>
+                    <div class="text_box">Seeds의 공식 노션 페이지</div>
+                </article><!--Seeds notion 페이지와 연동-->
+            </div>
+        </section>
+    </body>
+</html>
